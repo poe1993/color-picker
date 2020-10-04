@@ -108,10 +108,13 @@ class App extends Component {
           </div>
           <section>
             <div
+              className="shans-color"
               style={{
-                background: `hsl(${this.state.hue}, ${this.state.saturation}%, ${this.state.lightness}%)`,
+                color: `hsl(${this.state.hue}, ${this.state.saturation}%, ${this.state.lightness}%)`,
               }}
-            ></div>
+            >
+              Color
+            </div>
           </section>
         </main>
       </>
